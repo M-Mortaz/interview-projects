@@ -3,6 +3,13 @@ An escrow is a contractual arrangement in which a third party (the stakeholder o
 money or property for the primary transacting parties, with the disbursement dependent on conditions agreed to by the
 transacting parties.
 
+## What is this repo for?
+This is an interview task for a company called Toman, the task says to create a simple endpoint with Django to submit
+the products with the following fields:
+1. title
+2. description
+3. files
+
 ## Stack Description
 This app wrote with the Django framework which is integrated/used with:
 1. DRF
@@ -13,17 +20,15 @@ This app wrote with the Django framework which is integrated/used with:
 6. Postgresql
 7. Docker & docker compose
 8. Swagger
-9. Sentry
-10. Postman
-11. Collection
-12. Test
-13. pre-commit
-14. Pre-commit lint hooks
-15. CORS handling
-16. Nginx for serving static/media files in production and Whitenoise for development.
-17. Grafana, prometheus for visualize and metrics
-18. Custom middleware to convert exception to API status (I love it!)
-19. Factory boy
+9. Postman Collection
+10. Test
+11. Pre-commit lint hooks
+12. CORS handling
+13. Nginx for serving static/media files in production and Whitenoise for development.
+14. Grafana, prometheus for visualize and metrics
+15. Custom middleware to convert exception to API status (I love it!)
+16. Factory boy
+...
 
 ## Dependency
 To run in production level, needs to have docker and docker-compose
@@ -58,7 +63,7 @@ cd apps
 ## Run
 clone the git repository and got to project's root directory in the terminal and run following command:
 ```shell script
-sudo docker-compose up --build -d
+docker-compose up --build -d
 ```
 Brows following url to check the URL docs:
 [http://localhost:80/swagger/](http://localhost:80/swagger/)
@@ -72,5 +77,4 @@ Feel free to use postman collection as API example and docs:
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/9d79795edc4869d7b89b?action=collection%2Fimport#?env%5BDev%5D=W3sia2V5Ijoic2VydmVyX3VybCIsInZhbHVlIjoiaHR0cDovLzAuMC4wLjA6ODAwMCIsImVuYWJsZWQiOnRydWV9LHsia2V5IjoiYWNjZXNzX3Rva2VuIiwidmFsdWUiOiIiLCJlbmFibGVkIjp0cnVlfSx7ImtleSI6InJlZnJlc2hfdG9rZW4iLCJ2YWx1ZSI6IiIsImVuYWJsZWQiOnRydWV9LHsia2V5IjoiYm90X3VybCIsInZhbHVlIjoiaHR0cDovL2xvY2FsaG9zdDo4MDAwIiwiZW5hYmxlZCI6dHJ1ZX1d)
 
 ## Licence
-Let's look forward licence later ;)
-Please feel free to send me email Mortaz.Mehdi@gmail.com
+Let's look forward for the licence later ;)
